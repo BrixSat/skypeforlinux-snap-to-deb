@@ -8,7 +8,8 @@
 set -euo pipefail
 
 WORKDIR="/tmp/skypeforlinux"
-DEBURL="https://repo.skype.com/latest/skypeforlinux-64.deb"
+#DEBURL="https://repo.skype.com/latest/skypeforlinux-64.deb"
+DEBURL="http://mirror.cs.uchicago.edu/skype/pool/main/s/skypeforlinux/skypeforlinux_8.109.0.209_amd64.deb"
 DEBFILE="skypeforlinux_8.109.0.209_amd64.deb"
 SNAPAPI="https://search.apps.ubuntu.com/api/v1/package/skype"
 JSONFILE="skypeforlinux.json"
